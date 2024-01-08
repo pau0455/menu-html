@@ -1,0 +1,101 @@
+* {box-sizing: border-box; margin: 0;}
+
+.menu {
+    position: sticky;
+    width: 100%;
+    bottom: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    font-size: 1.5em;
+}
+
+.home {
+    border: 2px solid white;
+    text-align: center;
+}
+
+.submenu1 { display: none;}
+
+.home:hover .submenu1 { 
+    display: block;
+    position: absolute;
+    background-color: black;
+    border: 2px solid white;
+    width: 60px;  
+}
+     
+
+.services {
+    border: 2px solid white;
+    text-align: center;
+}
+.submenu2 { display: none;}
+
+.services:hover .submenu2 { 
+    display: block;
+    position: absolute;
+    background-color: black;
+    border: 2px solid white;
+    width: 83px;  
+}
+
+
+.about {
+    border: 2px solid white;
+    text-align: center;
+}
+
+.submenu3 { display: none;}
+
+.about:hover .submenu3 { 
+    display: block;
+    position: absolute;
+    background-color: black;
+    border: 2px solid white;
+    width: 60px;    
+}
+
+.foto img{
+    margin: auto;
+    width: 100%;
+}
+
+.text {
+    box-shadow: white 1px 1px 10px;
+    position: absolute;
+    bottom: -80px;
+    left: 420px;
+    background-color: black;
+    text-align: justify;
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contenido{
+    width: 100%;
+    color: #0d1117;
+}
+
+.contenido-grid {
+    background-color: #0d1117;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+
+}
+
+.contenido-text{
+    background-color: #0d1117;
+    color: white;
+    padding: 1em;
+    text-align: justify;
+    height: 300px;
+}
